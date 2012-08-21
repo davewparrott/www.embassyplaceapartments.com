@@ -1,0 +1,90 @@
+*{margin:0px;padding:0px}
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,em,img,strike,tt,b,i,ol,ul,li,fieldset,form,label,legend,table,tbody,tfoot,thead,tr,th,td{margin:0px;padding:0px;border:0px;outline:0px;vertical-align:baseline;background:transparent;font-weight:normal}
+
+object,embed,param,#video{z-index:0 !important}ul{list-style:none}table{border-collapse:collapse;border-spacing:0}a{text-decoration:none;cursor:pointer}
+
+a img{outline:none;border:none}
+.clear{zoom:1;content:".";display:block;height:0px;clear:both;visibility:hidden;width:100%}
+.right{float:right}
+.left{float:left}
+.hidden{display:none}
+.pointer{cursor:pointer}
+.small{font-size:0.7em}
+h1,h2,h3,h4,h5,h6{color:#333;padding-bottom:0.6em;font-size:1.4em}
+a{font-style:italic;color:#277224}
+p{padding-bottom:0.75em}
+body{color:#666}
+#user-header{background-color:#050505;text-align:center;color:#999}
+#user-header .container{text-align:left}
+#user-header .container span{display:inline-block;padding:0.6em 1em}
+#user-header .container a{color:#efefef}
+form .field{display:block;padding-bottom:1em}
+form label{width:100%;display:block;line-height:1em}
+form input[type="text"],form input[type="password"],form textarea{width:98%;padding:1%;color:#666;background:transparent url("background-form-04e3cd0ffd0c5949152798e1283e8ae2.png") repeat scroll 0px 0px;border:1px solid #999}
+
+form input[type="submit"]{display:block;width:100%;padding:0.5em;text-align:left}
+body{background:#000 url("background-9e5929c1a3d6336d020013f7baa3a47c.png") repeat scroll 0px 0px;font-family:"Sorts Mill Goudy",serif;line-height:1.6em;font-size:90%}
+body .container{width:900px;margin:auto}
+body #frame{background:transparent url("background-content-6061c923e5c6de88d6e959c8b5ef1347.png") repeat scroll 0px 0px;padding-top:1px;padding-bottom:60px;margin-bottom:20px;margin-top:80px;border-top:2px groove #1b331a;border-bottom:2px groove #1b331a}
+body #frame #canvas #page{margin-left:200px;margin-top:-40px;margin-bottom:20px;position:relative}
+body #frame #canvas #page .padded{padding:40px;width:620px}
+body #frame #canvas #page .group{padding-bottom:3em}body footer .content{color:#666;margin-left:200px}
+body footer a{color:#999}
+.shadow{box-shadow:0px 0px 14px #000}
+.white{background:transparent url("background-white-ff3fd8b374381f7624249908c260604b.png") repeat scroll 0px 0px}
+body.home.index #opening-description{position:absolute;left:-189px;bottom:-50px;width:400px;padding:2em 1em 1em 1em;text-align:center}
+body.home.gallery #gallery{position:relative;display:inline-block;text-align:center;height:480px;width:640px}
+body.home.gallery #gallery .gallery-image{position:absolute}
+body.home.gallery #gallery #thumbnails{position:absolute;bottom:-50px;left:20px;right:20px;height:75px}
+body.home.gallery #gallery #thumbnails .thumbnail{float:left}
+body.home.contact #map{float:right;width:300px;height:200px}
+#modal{z-index:999;position:fixed;top:100%;left:0px;right:0px;bottom:0px;background:transparent url("background-modal-af3f4de4ca3e6158f048d6f0d49a2228.png") repeat scroll 0px 0px;padding:5%;overflow:scroll;color:#999;text-align:center}
+#modal h1,#modal h2,#modal h3,#modal h4,#modal h5,#modal h6{color:#ccc}
+#modal a{color:#fff}#header{position:relative;overflow:visible}
+#header nav #banner{background:#333 url("nav/background-e65d6f1241e29af41e73ae232ad47bab.png") repeat-x scroll 0px bottom;display:block;color:#666;text-align:center;margin-right:40px;width:140px;margin-bottom:1em;padding:0px 2px 2px 2px;position:absolute}
+#header nav #banner .content{text-shadow:-1px -1px 2px #000;padding:1em 0em 0.5em 0em;line-height:2em;border-right:2px groove #666;border-bottom:2px groove #666;border-left:2px groove #666}
+#header nav #banner .content a{display:block;font-size:1.3em;color:#a3a3a3;padding:0.5em 1em 0.5em 1em;background:transparent url("nav/line-f632366cbe5d5ee2d4e1c404cc9859c4.png") no-repeat scroll center bottom}
+#header nav #banner .content a.last{background:none}
+#header nav #banner .content a.live{text-shadow:0px 1px 1px #656565;color:#000}
+#header nav .message{color:#fff;text-shadow:-1px -1px 2px #000;padding-left:200px;padding-top:1em}
+#header nav a#nav-homepage{display:block;padding-left:200px;padding-top:30px}
+
+/* New CSS for header with drop shadow */
+
+body .container {position:relative;}
+
+#header {background-color:#043019;
+-moz-box-shadow: 0px 4px 1px #000;
+-webkit-box-shadow: 0px 4px 1px #000;
+box-shadow: 0px 4px 1px #000;
+/* Drop shadow in header For IE 8 */
+06.-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000')";
+}
+
+#header nav #banner {width:auto; /* remove width on the SASS styling*/ background:none; right:0px; top:20px;}
+
+#header nav #banner .content {
+border:0px none;
+}
+
+#header nav #banner .content a {
+display:inline; /*remove block on this*/
+background: url("nav/pipe.gif") no-repeat scroll right center transparent;
+font-style: normal; /*remove italics*/
+}
+#header nav #banner .content a.live {color:#748f56; /*remove text shadow */}
+#header nav #banner .content a:hover {color:#748f56; /*remove text shadow */}
+body {background-color:#0b4922;}
+body #frame {background:none; border:0px none; margin-top:35px;}
+
+body #frame #canvas #page {margin-left:0px; margin-top:0px;}
+body.home.index #opening-description {
+height: 363px; width: 268px; top:0px; right:50px; /* remove left position */ left:auto; background:none; text-align:left;} /* remove the class shadow and white */
+
+body.home.index #canvas img{width:529px; height:auto;}
+#header nav a#nav-homepage {padding-left:0px;}
+body {background-image:url("background.gif"); background-repeat: no-repeat; background-color:#0b4922;
+}
+
+h1 {color:#f9d383;}
